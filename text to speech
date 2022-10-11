@@ -5,8 +5,8 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice',voices[0].id)
 
 x = 'Hello Everyone I am Contributing in Hacktoberfest'
-x = open("sample.txt", "r")
 
-engine.say(x.read())
+
+engine.say(x)
 
 engine.runAndWait()
