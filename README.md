@@ -1,6 +1,9 @@
 # Text-to-Speech-Converter
 This is Simple Python Program Which Converts Your Text to Speech.
 
+## Requirements 
+First install Pyttsx3 using command : pip install pyttsx3
+
 ## what does code provided do 
 The code Provided in this repository reads up text that is assigned to variable x , as shown in image below
 
