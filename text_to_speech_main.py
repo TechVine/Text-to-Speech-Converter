@@ -1,12 +1,9 @@
 import pyttsx3
-
-engine = pyttsx3.init("sapi5")
+engine = pyttsx3.init()
 voices = engine.getProperty('voices')
-engine.setProperty('voice',voices[0].id)
-
-x = 'Hello Everyone I am Contributing in Hacktoberfest'
-
-
-engine.say(x)
-
-engine.runAndWait()
+for voice in voices:
+    print(voice, voice.id)
+    engine.setProperty('voice', voice.id)
+    engine.say("Hello World!")
+    engine.runAndWait()
+    engine.stop()
