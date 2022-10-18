@@ -1,0 +1,26 @@
+/*Bubble Sort*/ 
+#include<stdio.h> 
+void main(){ 
+ intsize,i,j,swap; 
+printf("Enter Size of Array:"); 
+ scanf("%d",&size); 
+ int Array[size]; 
+ printf("Enter elements in Array:"); 
+for(i=0;i<size;i++){ 
+ scanf("%d",&Array[i]); 
+ } 
+ for(i=0;i<size-1;i++){ 
+ for(j=0;j<size-i-1; 
+j++;) 
+{ if(Array[j]>Array[j+1]){ 
+ swap=Array[j]; 
+ Array[j]=Array[j+1]; 
+ Array[j+1]=swap; 
+ } 
+ } 
+ } 
+printf("The Sorted Array is:"); 
+for(i=0;i<size;i++){ 
+ printf("%d ",Array[i]); 
+ } 
+} 
