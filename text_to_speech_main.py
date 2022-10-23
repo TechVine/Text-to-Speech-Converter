@@ -1,3 +1,6 @@
+#pip install pyttsx3
+#pip install comtypes if working with windows only
+
 import pyttsx3
 
 engine = pyttsx3.init("sapi5")
