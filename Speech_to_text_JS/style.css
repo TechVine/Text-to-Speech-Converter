@@ -1,0 +1,50 @@
+body {
+  background: #1e0447;
+  color: #f2efe2;
+  font-size: 16px;
+  font-family: monospace;
+  letter-spacing: 2px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.mycontainer {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 150px 100px;
+  text-align: center;
+}
+
+.mywebapp {
+  margin: 50px auto;
+}
+
+#textbox {
+  margin: 30px 0;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 26px;
+}
+
+button {
+  font-size: 25px;
+  font-family: monospace;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+  .mycontainer {
+    width: 85vw;
+    max-width: 85vw;
+  }
+
+  button {
+    margin-bottom: 10px;
+  }
+}
